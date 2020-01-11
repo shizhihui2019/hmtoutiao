@@ -1,0 +1,10 @@
+base.py                     16 INFO     正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0335893aceb32dad74d3a0c5d9a3720c")>
+base.py                     24 INFO     正在查找元素：('css selector', "[placeholder='用户名']")
+base.py                     36 INFO     正在执行清空操作
+base.py                     39 INFO     正在给 ('css selector', "[placeholder='用户名']") 元素 执行输入操作：testid
+base.py                     24 INFO     正在查找元素：('css selector', "[placeholder='密码']")
+base.py                     36 INFO     正在执行清空操作
+base.py                     39 INFO     正在给 ('css selector', "[placeholder='密码']") 元素 执行输入操作：testpwd123
+base.py                     45 INFO     正在对 ('css selector', '#inp1') 元素 执行点击操作
+base.py                     24 INFO     正在查找元素：('css selector', '#inp1')
+base.py                     16 INFO     正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0335893aceb32dad74d3a0c5d9a3720c")>

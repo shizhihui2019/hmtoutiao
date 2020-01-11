@@ -1,4 +1,5 @@
 # 4++++++++++
+from page.page_app_article import PageAppArticle
 from page.page_app_login import PageAppLogin
 from page.page_mis_audit import PageMisAudit
 from page.page_mis_login import PageMisLogin
@@ -30,3 +31,7 @@ class PageIn:
     # 获取PageAppLogin对象
     def page_get_PageAppLogin(self):
         return PageAppLogin(self.driver)
+
+    # 获取PageAppArticle对象
+    def page_get_PageAppArticle(self):
+        return PageAppArticle(self.driver)

@@ -8,7 +8,7 @@ from base.base import Base
 class PageMpArticle(Base):
     # 点击 内容管理
     def page_click_content_manage(self):
-        time.sleep(3)
+        time.sleep(5)
         self.base_click(page.mp_content_manage)
 
     # 点击 发布文章

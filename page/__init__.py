@@ -101,3 +101,9 @@ app_login_btn = By.XPATH, "//*[@index='4' and @class='android.widget.Button']"
 app_me = By.XPATH, "//*[@index='3' and contains(@text,'我的')]"
 # 不可以精准匹配 text=我的Tab 4 of 4==>找不到
 # app_me = By.XPATH, "//*[@index='3' and text='我的Tab 4 of 4']"
+
+# 频道区域
+app_area = By.XPATH, "//*[@class='android.widget.HorizontalScrollView']"
+
+# 文章区域
+app_article_area = By.XPATH,"//*[@bounds='[0,390][1080,1716]']"

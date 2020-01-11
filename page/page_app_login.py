@@ -5,11 +5,11 @@ from base.app_base import AppBase
 class PageAppLogin(AppBase):
     # 输入用户名
     def page_input_username(self, username):
-        self.base_input(page.app_username,username)
+        self.base_input(page.app_username, username)
 
     # 输入密码
     def page_input_pwd(self, pwd):
-        self.base_input(page.app_pwd,pwd)
+        self.base_input(page.app_pwd, pwd)
 
     # 点击登录按钮
     def page_click_login_btn(self):
@@ -27,6 +27,12 @@ class PageAppLogin(AppBase):
 
     # 组合登录业务方法
     def page_app_login(self, username, pwd):
+        self.page_input_username(username)
+        self.page_input_pwd(pwd)
+        self.page_click_login_btn()
+
+    # 组合登录业务方法
+    def page_app_login_success(self, username="13812345678", pwd="246810"):
         self.page_input_username(username)
         self.page_input_pwd(pwd)
         self.page_click_login_btn()
